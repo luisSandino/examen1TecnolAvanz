@@ -158,10 +158,12 @@ footer {
 /*CONTACT FORM*/
 form div {
   margin: 15px; }
-form input {
+form input, form textarea {
   border-color: #e8d9d9;
   margin: 10px;
   width: 50%;
+  height: 50px; }
+form textarea {
   height: 50px; }
 form .enviar {
   background: #83b759;
@@ -189,7 +191,7 @@ form .enviar {
   .wrapper {
     width: 100%; }
 
-  form input {
+  form input, form textarea {
     width: 100%; }
   form .enviar {
     background: #83b759;
