@@ -1,0 +1,8 @@
+@function calcularGrid($numeroColumnas, $totalColumnas:12){
+	@return percentage($numeroColumnas / $totalColumnas);
+}
+@for $i from 1 through 12 {
+			.grid-#{$i} {
+				width: calcularGrid($i);
+			}
+		}

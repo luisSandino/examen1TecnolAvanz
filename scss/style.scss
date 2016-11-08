@@ -1,0 +1,161 @@
+@import 'variables', 'functions', 'mixins', 'reset';
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Myriad Pro", Arial, san-serif;
+	background: $blanco-font;
+
+}
+/*HEADER STYLE*/
+
+header{
+	margin-bottom: 4em;
+	background: $turquesa;
+	height: 5em;
+	nav{
+		margin: 0 auto;
+		.tittle{
+
+			float:left;
+			h1{
+				color: $blanco-font;
+				font-size: 2em;
+				float: left;
+				margin: 30px 10px 0 0;
+
+			}
+			span{
+				color: $blanco-font;
+				font-size: 0.5em;
+			
+			}
+		}
+		ul{
+			float: right;
+			li{
+				float: left;
+				margin: 43px 10px 0 0;
+				a{
+					text-decoration: none;
+					font-size: 1em;
+					color: $blanco-font;
+				}
+			}
+			
+		}
+
+	}
+}
+
+/*CONTENT STYLE*/
+
+.wrapper{
+	margin: 0 auto;
+	padding: 2em;
+	background: #fff;
+
+	p{
+		margin-top: 2em;
+		color: #000;
+		font-size: 0.9em;
+		padding: 10px;
+	}
+	h3{
+		color: $turquesa;
+		font-size: 2em;
+		text-align: center;
+	}
+	h1{
+		
+		font-size: 4em;
+	}
+}
+
+
+
+
+/*FOOTER STYLE*/
+footer{
+	margin-top: 4em;
+	background: $verde-footer;
+	height: 5em;
+	nav{
+		margin: 0 auto;
+		p{
+			float:left;
+			margin: 30px 10px 0 0;
+			color: $blanco-font;
+
+		}
+		ul{
+			float: right;
+			li{
+				float: left;
+				margin: 30px 10px 0 0;
+				a{
+					text-decoration: none;
+					font-size: 1em;
+					color: $blanco-font;
+				}
+			}
+			
+		}
+
+	}
+}
+
+
+
+/*	QUERIES MEDIA*/
+
+
+@media screen and (max-width: 700px) {
+    header{
+    	height: 8em;
+    	
+		
+
+    	nav{
+			text-align: center;
+    		.tittle{
+    			width: 100%;
+    			color: red;
+    			h1{
+    				text-align: center;
+    			}
+
+
+    		}
+    		ul{
+    			width: 100%;
+    			text-align: center;
+    			li{
+    				text-align: center;
+    				a{
+    					text-align: center;
+    				}
+    			}
+    			
+    			
+    			
+    			
+    		}
+    	}
+    	
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    	
+    
+    .wrapper{
+    	width: 100%;
+    	
+    }
+}

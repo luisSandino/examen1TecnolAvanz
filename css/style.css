@@ -1,0 +1,180 @@
+.grid-1 {
+  width: 8.33333%; }
+
+.grid-2 {
+  width: 16.66667%; }
+
+.grid-3 {
+  width: 25%; }
+
+.grid-4 {
+  width: 33.33333%; }
+
+.grid-5 {
+  width: 41.66667%; }
+
+.grid-6 {
+  width: 50%; }
+
+.grid-7 {
+  width: 58.33333%; }
+
+.grid-8 {
+  width: 66.66667%; }
+
+.grid-9 {
+  width: 75%; }
+
+.grid-10 {
+  width: 83.33333%; }
+
+.grid-11 {
+  width: 91.66667%; }
+
+.grid-12 {
+  width: 100%; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Myriad Pro", Arial, san-serif;
+  background: #f5f1e6; }
+
+/*HEADER STYLE*/
+header {
+  margin-bottom: 4em;
+  background: #8fc4be;
+  height: 5em; }
+  header nav {
+    margin: 0 auto; }
+    header nav .tittle {
+      float: left; }
+      header nav .tittle h1 {
+        color: #f5f1e6;
+        font-size: 2em;
+        float: left;
+        margin: 30px 10px 0 0; }
+      header nav .tittle span {
+        color: #f5f1e6;
+        font-size: 0.5em; }
+    header nav ul {
+      float: right; }
+      header nav ul li {
+        float: left;
+        margin: 43px 10px 0 0; }
+        header nav ul li a {
+          text-decoration: none;
+          font-size: 1em;
+          color: #f5f1e6; }
+
+/*CONTENT STYLE*/
+.wrapper {
+  margin: 0 auto;
+  padding: 2em;
+  background: #fff; }
+  .wrapper p {
+    margin-top: 2em;
+    color: #000;
+    font-size: 0.9em;
+    padding: 10px; }
+  .wrapper h3 {
+    color: #8fc4be;
+    font-size: 2em;
+    text-align: center; }
+  .wrapper h1 {
+    font-size: 4em; }
+
+/*FOOTER STYLE*/
+footer {
+  margin-top: 4em;
+  background: #83b759;
+  height: 5em; }
+  footer nav {
+    margin: 0 auto; }
+    footer nav p {
+      float: left;
+      margin: 30px 10px 0 0;
+      color: #f5f1e6; }
+    footer nav ul {
+      float: right; }
+      footer nav ul li {
+        float: left;
+        margin: 30px 10px 0 0; }
+        footer nav ul li a {
+          text-decoration: none;
+          font-size: 1em;
+          color: #f5f1e6; }
+
+/*	QUERIES MEDIA*/
+@media screen and (max-width: 700px) {
+  header {
+    height: 8em; }
+    header nav {
+      text-align: center; }
+      header nav .tittle {
+        width: 100%;
+        color: red; }
+        header nav .tittle h1 {
+          text-align: center; }
+      header nav ul {
+        width: 100%;
+        text-align: center; }
+        header nav ul li {
+          text-align: center; }
+          header nav ul li a {
+            text-align: center; } }
+@media screen and (max-width: 700px) {
+  .wrapper {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
