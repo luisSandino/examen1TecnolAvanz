@@ -110,6 +110,27 @@ footer{
 }
 
 
+/*CONTACT FORM*/
+
+
+
+form{
+	div{
+
+		margin: 15px;
+	}
+	input{
+		border-color: #e8d9d9;
+		margin: 10px;
+		width: 50%;
+		height: 50px;
+	}
+	.enviar{
+		background: $verde-footer;
+		width: 25%;
+	}
+}
+
 
 /*	QUERIES MEDIA*/
 
@@ -157,5 +178,15 @@ footer{
     .wrapper{
     	width: 100%;
     	
+    }
+    form{
+    	input{
+    		width: 100%;
+
+    	}
+    	.enviar{
+		background: $verde-footer;
+		width: 100%;
+	}
     }
 }
